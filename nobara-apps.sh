@@ -20,7 +20,8 @@ sudo dnf install -y \
     htop btop nvtop kitty fish p7zip p7zip-plugins unrar \
     gnome-disk-utility timeshift gimp krita vlc obs-studio darktable \
     kdenlive inkscape antimicrox openrgb java-21-openjdk blender \
-gamescope steam-devices rsync rclone
+gamescope steam-devices rsync rclone cifs-utils \ hwinfo kvantum qt5-qtstyleplugins qt6-qt5compat \
+python3-pip
 echo ""
 # 5. Installing Flatpak
 echo "📦 Installing Flatpak"
