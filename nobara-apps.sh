@@ -15,10 +15,10 @@ echo ""
 # 4. DNF apps
 echo "📦 Installing main apps"
 sudo dnf install -y \
-    steam heroic-games-launcher lutris mangohud goverlay gamemode gamescope \
+    steam heroic-games-launcher lutris mangohud goverlay gamemode gamescope steam-devices\
     telegram-desktop discord google-chrome-stable qbittorrent \
     htop btop nvtop kitty fish p7zip p7zip-plugins unrar \
-    gnome-disk-utility timeshift gimp krita vlc obs-studio \
+    gnome-disk-utility timeshift gimp krita vlc obs-studio darktable \
     kdenlive inkscape antimicrox openrgb java-21-openjdk blender \
 gamescope steam-devices rsync rclone
 echo ""
