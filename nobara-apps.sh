@@ -19,7 +19,8 @@ sudo dnf install -y \
     telegram-desktop discord google-chrome-stable qbittorrent \
     htop btop nvtop kitty fish p7zip p7zip-plugins unrar \
     gnome-disk-utility timeshift gimp krita vlc obs-studio \
-    kdenlive inkscape antimicrox openrgb java-21-openjdk blender
+    kdenlive inkscape antimicrox openrgb java-21-openjdk blender \
+gamescope steam-devices
 echo ""
 # 5. Installing Flatpak
 echo "📦 Installing Flatpak"
