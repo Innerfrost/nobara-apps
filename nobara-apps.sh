@@ -32,6 +32,7 @@ flatpak install -y flathub \
     com.github.clash-verge-rev.clash-verge \
     com.usebottles.bottles \
     org.prismlauncher.PrismLauncher
+.   com.visualstudio.code
 echo ""
 # 6. Enable gamemoded
 echo "🎮 Enable gamemoded"
