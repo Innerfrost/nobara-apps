@@ -28,7 +28,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak install -y flathub \
     org.onlyoffice.desktopeditors \
     md.obsidian.Obsidian \
-    com.github.clash-verge-rev.clash-verge-rev \
+    com.github.clash-verge-rev.clash-verge \
     com.usebottles.bottles \
     org.prismlauncher.PrismLauncher
 echo ""
