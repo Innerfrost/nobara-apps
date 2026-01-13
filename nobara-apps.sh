@@ -31,7 +31,7 @@ flatpak install -y flathub \
     md.obsidian.Obsidian \
     com.github.clash-verge-rev.clash-verge \
     com.usebottles.bottles \
-    org.prismlauncher.PrismLauncher
+    org.prismlauncher.PrismLauncher \
 .   com.visualstudio.code
 echo ""
 # 6. Enable gamemoded
