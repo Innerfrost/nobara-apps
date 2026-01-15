@@ -2,7 +2,7 @@
 
 # Apps installation for Nobara
 echo "🔔 Starting installation..."
-
+echo "
 # 2. Adding COPR-repo for Razer
 echo "🔌 Adding repo for Razer"
 sudo dnf install kernel-devel -y
@@ -10,7 +10,7 @@ sudo dnf config-manager addrepo --from-repofile=https://openrazer.github.io/hard
 echo ""
 # 3. Installing Razer components
 echo "🎨 Installing OpenRazer и Polychromatic..."
-sudo dnf install openrazer-meta polychromatic
+sudo dnf install openrazer-meta polychromatic -y
 echo ""
 # 4. DNF apps
 echo "📦 Installing main apps"
@@ -23,7 +23,9 @@ sudo dnf install -y \
 echo ""
 # 5. Installing Flatpak
 echo "📦 Installing Flatpak"
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
 flatpak install -y flathub \
     org.onlyoffice.desktopeditors \
     md.obsidian.Obsidian \
